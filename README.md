@@ -1,0 +1,1 @@
+# Sanskrit_Dictionary_For_MacOs
