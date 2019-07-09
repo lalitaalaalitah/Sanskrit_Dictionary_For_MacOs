@@ -1,19 +1,6 @@
 # Sanskrit_Dictionary_For_MacOs
-
-Add some css code from this site for Mac Os Mojave : https://eclecticlight.co/2018/10/04/make-mojave-custom-dictionaries-work-better/
-
-This must go to DefaultStyle.css of the dictionary.
-
-@media (prefers-dark-interface)
-{
-html {
--apple-color-filter: apple-invert-lightness();
-}
-a {
--apple-color-filter: none;
-color: -webkit-link;
-}
-img {
-filter: invert(100%);
-}
-}
+Download the folder ending with .dictionary. Mac OS will recognise it as a dictionary file.
+Save it in your dictionary folder.(It can be found in "File" menu --> "Open Dictionaries Folder")
+Open prefrences of Dictionary.
+Select the newly installed dictionary.
+Search with the enabled index.
