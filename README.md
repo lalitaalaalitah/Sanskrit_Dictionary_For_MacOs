@@ -9,3 +9,7 @@ Open prefrences of Dictionary.
 Select the newly installed dictionary.
 
 Search with the enabled index.
+
+
+Credits:
+https://github.com/indic-dict/stardict-sanskrit for source stardict files
