@@ -16,5 +16,6 @@ https://github.com/indic-dict/stardict-sanskrit for source stardict files
 
 
 Note:
-With Mac OS Catalina, these dictionaries appear not to work.
+With Mac OS Catalina, these dictionaries appear not to work.(
+check this thread : https://discussions.apple.com/thread/250861549)
 I'm aware and I'm trying to find a solution.
