@@ -13,3 +13,8 @@ Search with the enabled index.
 
 Credits:
 https://github.com/indic-dict/stardict-sanskrit for source stardict files
+
+
+Note:
+With Mac OS Catalina, these dictionaries appear not to work.
+I'm aware and I'm trying to find a solution.
