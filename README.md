@@ -1,5 +1,7 @@
 # Sanskrit_Dictionary_For_MacOs
 
+https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/
+
 
 These are dictionary files for Mac OS dictionary app. These are similar to those which are being used with GoldenDict or ColorDict or EBDic.
 
