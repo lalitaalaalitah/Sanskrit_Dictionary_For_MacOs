@@ -5,7 +5,7 @@ https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/
 
 These are dictionary files for Mac OS dictionary app. These are similar to those which are being used with GoldenDict or ColorDict or EBDic.
 
-* These work for 10.11-10.15(confirmed). I don't have access to older Mac OS versions, so no promises for them.
+* These work for 10.11-13.1(confirmed). I don't have access to older Mac OS versions, so no promises for them.
 
 * Download the folder ending with .dictionary. Mac OS will recognise it as a dictionary file.
 
