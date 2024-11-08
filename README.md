@@ -73,6 +73,7 @@ These are dictionary files for Mac OS dictionary app. These are similar to those
 * siddhAnta-kaumudI.dictionary
 * vAchaspatyam-sa.dictionary
 * vedic-rituals-h_apple_dict.dictionary
+* अभिधानमञ्जरी_apple_dict_devanagari.dictionary
 ```
 ## Credits:
 
