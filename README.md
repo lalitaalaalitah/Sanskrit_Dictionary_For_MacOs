@@ -60,8 +60,16 @@ These are dictionary files for Mac OS dictionary app. These are similar to those
 * Declension-B-heritage_du_sanskrit_san-san_apple_dict_roman_devanagari.dictionary
 * dhAtu-pATha-kRShNAchArya_apple_dict_roman_devanagari.dictionary
 * dhAtupATha-sa_apple_dict.dictionary
+* ekAkSharanAmamAlA_apple_dict.dictionary
+* jnu-tiNanta_apple_dict.dictionary
+* mw-sa_apple_dict.dictionary
+* padamanjarI_apple_dict.dictionary
+* padamanjari-apple.dictionary
+* padamanjarI.dictionary
+* pali-en-pa_apple_dict.dictionary
 * siddhAnta-kaumudI_apple_dict.dictionary
 * siddhAnta-kaumudI.dictionary
+* vedic-rituals-h_apple_dict.dictionary
 ```
 ## Credits:
 
