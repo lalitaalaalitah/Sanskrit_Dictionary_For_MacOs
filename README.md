@@ -62,6 +62,8 @@ These are dictionary files for Mac OS dictionary app. These are similar to those
 * dhAtupATha-sa_apple_dict.dictionary
 * ekAkSharanAmamAlA_apple_dict.dictionary
 * jnu-tiNanta_apple_dict.dictionary
+* kalpadruma-sa_apple_dict.dictionary
+* kalpadruma-sa.dictionary
 * mw-sa_apple_dict.dictionary
 * padamanjarI_apple_dict.dictionary
 * padamanjari-apple.dictionary
@@ -69,6 +71,7 @@ These are dictionary files for Mac OS dictionary app. These are similar to those
 * pali-en-pa_apple_dict.dictionary
 * siddhAnta-kaumudI_apple_dict.dictionary
 * siddhAnta-kaumudI.dictionary
+* vAchaspatyam-sa.dictionary
 * vedic-rituals-h_apple_dict.dictionary
 ```
 ## Credits:
