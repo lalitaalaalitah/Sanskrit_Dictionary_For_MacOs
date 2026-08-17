@@ -341,3 +341,5 @@ dmypy.json
 cython_debug/
 .DS_Store
 Done/.DS_Store
+result
+result*

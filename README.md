@@ -7,15 +7,27 @@ These are dictionary files for Mac OS dictionary app. These are similar to those
 
 * These work for 10.11-13.1(confirmed). I don't have access to older Mac OS versions, so no promises for them.
 
-* Download the folder ending with .dictionary. Mac OS will recognise it as a dictionary file.
+## Installation Options
 
-* Save it in your dictionary folder.(It can be found in "File" menu --> "Open Dictionaries Folder")
+You can install these dictionaries using the automated installer script or integrate them declaratively using Nix and Home Manager. See [HOW_TO_USE.md](file:///Volumes/Cablet_WD_2TB_20251206/05_Development/Github/02_Sanskrit_Dev/03_Sanskrit_Dictionary_For_MacOs/01_Sanskrit_Dictionary_For_MacOs/HOW_TO_USE.md) for detailed instructions.
 
-* Open prefrences of Dictionary.
+### 1. Automated Installer Script
 
-* Select the newly installed dictionary.
+Run the following command in the cloned repository to install the dictionaries:
 
-* Search with the enabled index.
+```bash
+uv run sanskrit_dict_installer.py
+# Or using standard python
+python3 sanskrit_dict_installer.py
+```
+
+### 2. Nix & Home Manager Integration
+
+If you use Nix-Darwin and Home Manager, you can enable the dictionaries in your custom applications configuration:
+
+```nix
+programs.sanskrit-dictionary.enable = true;
+```
 
 ## These Dictionaries are working correctly:
 ```
