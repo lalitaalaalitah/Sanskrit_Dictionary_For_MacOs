@@ -62,6 +62,8 @@ This repository contains **268** dictionaries.
 * `WordNet_3`
 *(... and 250+ more)*
 
+[See full list of available dictionaries](available_dictionaries.md)
+
 </details>
 
 ---
