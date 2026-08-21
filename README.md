@@ -1,6 +1,6 @@
 # 🕉️ Sanskrit Dictionaries for macOS
 
-[![macOS Compatibility](https://img.shields.io/badge/macOS-10.11--13.1-brightgreen.svg?style=flat-square&logo=apple)](https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/)
+[![macOS Compatibility](https://img.shields.io/badge/macOS-10.11--27.*-brightgreen.svg?style=flat-square&logo=apple)](https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/)
 [![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg?style=flat-square)](https://github.com/lalitaalaalitah/Sanskrit_Dictionary_For_MacOs/releases)
 
 A massive collection of Sanskrit dictionary bundles optimized for the native macOS Dictionary app. These are compatible with the high-quality sources used in GoldenDict, ColorDict, and EBDic.
