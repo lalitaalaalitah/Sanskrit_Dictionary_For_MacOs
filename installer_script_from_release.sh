@@ -1,9 +1,50 @@
 #!/bin/bash
 
+
+# """
+# Sanskrit Dictionary Installer for macOS
+# =======================================
+# Author: lalitaalaalitah
+# Website: https://www.lalitaalaalitah.com
+# GitHub Profile: https://github.com/lalitaalaalitah
+# Version: 1.0.0
+
+# An automated tool to download, extract, and install Sanskrit .dictionary files
+# into the macOS native Dictionary application.
+# """
+
 # Configuration
+# --- Color Definitions ---
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+BOLD='\033[1m'
+NC='\033[0m' # No Color
+
+# --- Configuration ---
 REPO="lalitaalaalitah/Sanskrit_Dictionary_For_MacOs"
+WEBSITE="https://www.lalitaalaalitah.com"
 INSTALL_DIR="$HOME/Library/Dictionaries"
-TEMP_DIR="/tmp/dictionary_download"
+TEMP_DIR="/tmp/sanskrit_dict_temp"
+
+# --- Visual Banner ---
+clear
+echo -e "${PURPLE}================================================================${NC}"
+echo -e "${BOLD}       🪔  SANSKRIT DICTIONARY INSTALLER FOR MACOS  🪔${NC}"
+echo -e "${PURPLE}================================================================${NC}"
+echo -e "${BOLD}Author:${NC}   lalitaalaalitah"
+echo -e "${BOLD}Version:${NC}  1.0.0"
+echo -e "${BOLD}Website:${NC}  ${BLUE}$WEBSITE${NC}"
+echo -e "${BOLD}GitHub:${NC}   https://github.com/$REPO"
+echo -e "${PURPLE}----------------------------------------------------------------${NC}"
+echo -e "${BOLD}Target:${NC}   $INSTALL_DIR"
+echo -e "${BOLD}Data:${NC}     ~14.0 GB (Total Collection)"
+echo -e "${PURPLE}================================================================${NC}"
+echo ""
+
 
 echo "================================================"
 echo "   Apple Dictionary Bulk Installer"
