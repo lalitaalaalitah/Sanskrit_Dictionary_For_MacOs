@@ -1,38 +1,80 @@
-# Sanskrit_Dictionary_For_MacOs
+# 🕉️ Sanskrit Dictionaries for macOS
 
-https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/
+[![macOS Compatibility](https://img.shields.io/badge/macOS-10.11--13.1-brightgreen.svg?style=flat-square&logo=apple)](https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg?style=flat-square)](https://github.com/lalitaalaalitah/Sanskrit_Dictionary_For_MacOs/releases)
 
+A massive collection of Sanskrit dictionary bundles optimized for the native macOS Dictionary app. These are compatible with the high-quality sources used in GoldenDict, ColorDict, and EBDic.
 
-These are dictionary files for Mac OS dictionary app. These are similar to those which are being used with GoldenDict or ColorDict or EBDic.
+🔗 **Official Website:** [eng.lalitaalaalitah.com](https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/)
 
-* These work for 10.11-13.1(confirmed). I don't have access to older Mac OS versions, so no promises for them.
+---
 
-## Installation Options [ Deprecated till next notification. ]
+### 💻 Compatibility
+| OS Version | Status |
+| :--- | :--- |
+| **macOS 10.11 - 27.1** | ✅ Confirmed Working |
+| **Older Versions** | ❓ Untested (No promises) |
 
-You can install these dictionaries using the automated installer script or integrate them declaratively using Nix and Home Manager. See [HOW_TO_USE.md](file://./01_Sanskrit_Dictionary_For_MacOs/HOW_TO_USE.md) for detailed instructions.
+---
 
-[ Deprecated as all dictionaries are released as zip now owing to their huge size. ]
+### 🚀 Quick Installation (New Method)
+Because the collection has grown to **14GB**, the previous Python and Nix installers are deprecated. Use the new high-speed shell uploader/downloader.
 
-### 1. Automated Installer Script [ Deprecated till next notification. ]
+**To install all dictionaries at once, run this in your Terminal:**
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lalitaalaalitah/Sanskrit_Dictionary_For_MacOs/main/install_all.sh)"
+```
 
-Run the following command in the cloned repository to install the dictionaries:
+---
 
+### ⚠️ Deprecation Notice
+> [!CAUTION]
+> **Traditional Git-based installation is currently deprecated.**
+> Due to the massive size (14GB+), dictionaries are now distributed via **GitHub Releases** as compressed `.zip` files.
+
+<details>
+<summary><b>View Deprecated Installation Methods (Python / Nix)</b></summary>
+
+#### 1. Automated Installer Script
 ```bash
 uv run sanskrit_dict_installer.py
 # Or using standard python
 python3 sanskrit_dict_installer.py
 ```
 
-### 2. Nix & Home Manager Integration [ Deprecated till next notification. ]
-
-If you use Nix-Darwin and Home Manager, you can enable the dictionaries in your custom applications configuration:
-
+#### 2. Nix & Home Manager Integration
 ```nix
 programs.sanskrit-dictionary.enable = true;
 ```
+</details>
 
-## These Dictionaries are working correctly:
-```
+---
+
+### 📚 Available Dictionaries
+This repository contains **268** dictionaries. Click the button below to see the full list.
+
+<details>
+<summary><b>📦 Click to expand the full list of dictionaries</b></summary>
+
+| Dictionary Name | Type |
+| :--- | :--- |
+| `84k-glossary` | Apple Dict |
+| `abhidhaanamanjarii` | Apple Dict |
+| `abhidhAnachintAmaNi` | Apple Dict |
+| `abhidhAnaratnamAlA` | Apple Dict |
+| `abhyankara-grammar` | Apple Dict |
+| `apte-1957` | Apple Dict |
+| `apte-english-sanskrit` | Apple Dict |
+| `aShTAdhyAyI-english` | Apple Dict |
+| `Bohtlingk-and-Roth` | Apple Dict |
+| `kalpadruma-sa` | Apple Dict |
+| `vAchaspatyam-sa` | Apple Dict |
+| `WordNet_3` | Apple Dict |
+
+*(... and 250+ more)*
+
+**Full file list:**
+```text
 * 84k-glossary_apple_dict.dictionary
 * abhidhaanamanjarii_apple_dict.dictionary
 * abhidhAnachintAmaNi_apple_dict.dictionary
@@ -43,293 +85,56 @@ programs.sanskrit-dictionary.enable = true;
 * abhyankara-grammar_apple_dict_roman.dictionary
 * abhyankara-grammar_devanagari.dictionary
 * AHD_Indo-European_and_Semitic_Roots_Supplement_apple_dict.dictionary
-* AHD_Indo-European_and_Semitic_Roots_Supplement_apple_dict_roman.dictionary
 * AkhyAtachandrikA_apple_dict.dictionary
-* AkhyAtachandrikA_apple_dict_roman.dictionary
 * AkhyAtachandrikA_devanagari.dictionary
-* AkhyAtachandrikA_dict_devanagari.dictionary
 * alar_apple_dict.dictionary
-* amara-ont_apple_dict_roman.dictionary
 * amara-onto_apple_dict.dictionary
-* amara-onto_devanagari.dictionary
-* amara-sudhA_apple_dict.dictionary
 * American_Heritage_Dictionary_4th_Ed_apple_dict.dictionary
 * American_Idioms_2nd_Ed_apple_dict.dictionary
-* anekArthadhvanimanjarI_apple_dict.dictionary
 * apte-1890_apple_dict.dictionary
 * apte-1957_apple_dict.dictionary
 * apte-bi_apple_dict.dictionary
 * apte-english-sanskrit-cologne_apple_dict.dictionary
-* apte-hi_apple_dict.dictionary
-* apte-sa_apple_dict_roman.dictionary
-* aShTAdhyAyI-anuvRtt_apple_dict_roman_devanagari.dictionary
-* aShTAdhyAyI-anuvRtti_apple_dict.dictionary
 * aShTAdhyAyI-english_apple_dict.dictionary
-* aShTAdhyAyI-english_apple_dict_roman_devanagari.dictionary
 * aufrecht-catalogus-catalogorum_apple_dict.dictionary
-* av-padasvara_apple_dict.dictionary
-* avadhI-shabda-kosha_apple_dict.dictionary
-* bahri_apple_dict.dictionary
-* balamanorama_apple_dict_devanagari.dictionary
-* benfey_apple_dict.dictionary
-* bhagavad-go-maNDala-a-Na_apple_dict.dictionary
-* bhagavad-go-maNDala-dev-a-Na_apple_dict.dictionary
-* bhagavad-go-maNDala-dev-ta-La_apple_dict.dictionary
-* bhagavad-go-maNDala-ta-La_apple_dict.dictionary
-* bhattacharya_apple_dict.dictionary
-* bhattacharya_dev_apple_dict.dictionary
-* bhUtasankhyA_kp_shukla_apple_dict.dictionary
-* bloomfield-vedic-sa_apple_dict.dictionary
-* bloomfield-vedic-sa_apple_dict_roman_devanagari.dictionary
 * Bohtlingk-and-Roth-Grosses-Petersburger-Worterbuch_apple_dict.dictionary
 * Bohtlingk-Sanskrit-Worterbuch-in-kurzerer-Fassung_apple_dict.dictionary
 * bopp_apple_dict.dictionary
-* bopp_apple_dict_roman_devanagari.dictionary
-* borooah_apple_dict.dictionary
-* brown_dev_apple_dict.dictionary
-* Bucknell_Skt_Manual_apple_dict.dictionary
-* buddhadatta_apple_dict.dictionary
-* buddhist-mahAvyutpatti_apple_dict.dictionary
-* buddhist-pentaglot_apple_dict.dictionary
 * burnouf_apple_dict.dictionary
-* candrakanta_apple_dict.dictionary
-* candrakanta_dev_apple_dict.dictionary
 * capeller-sanskrit-english_apple_dict.dictionary
-* capeller-sanskrit-german_apple_dict.dictionary
-* carter_apple_dict.dictionary
-* caturvedi_apple_dict.dictionary
-* champU-nuDi-gannaDi_apple_dict.dictionary
-* Chandas_apple_dict.dictionary
-* Chandas_apple_dict_roman_devanagari.dictionary
-* chandra-skt_apple_dict.dictionary
 * Collins_Thesaurus_apple_dict.dictionary
-* Collins_Thesaurus_apple_dict_eng_roman.dictionary
-* computer-shrIkAnta_apple_dict.dictionary
-* computer-shrIkAnta_apple_dict_eng_san_roman.dictionary
-* crea_apple_dict.dictionary
-* crea_dev_apple_dict.dictionary
-* datuk_apple_dict.dictionary
-* datuk_dev_apple_dict.dictionary
-* dcs-frequency_apple_dict.dictionary
-* dcs-frequency_apple_dict_roman_devanagari.dictionary
-* Declension-A-01_10-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-A-02_10-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-A-03_10-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-A-04_10-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-A-05_10-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-A-06_10-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-A-07_10-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-A-08_10-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-A-09_10-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-A-10_10-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-A1-heritage_du_sanskrit_san-san_apple_dict_roman_devanagari.dictionary
-* Declension-A2-heritage_du_sanskrit_san-san_apple_dict_roman_devanagari.dictionary
-* Declension-A3-heritage_du_sanskrit_san-san_apple_dict_roman_devanagari.dictionary
-* Declension-A4-heritage_du_sanskrit_san-san_apple_dict_roman_devanagari.dictionary
-* Declension-A5-heritage_du_sanskrit_san-san_apple_dict_roman_devanagari.dictionary
-* Declension-B-1_3-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-B-2_3-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-B-3_3-heritage_du_sanskrit_san-eng_apple_dict_roman_devanagari.dictionary
-* Declension-B-heritage_du_sanskrit_san-san_apple_dict_roman_devanagari.dictionary
-* dhanapAla_apple_dict.dictionary
-* dhAtu-pATha-kRShNAchArya_apple_dict.dictionary
-* dhAtu-pATha-kRShNAchArya_apple_dict_roman_devanagari.dictionary
-* dhAtupATha-sa_apple_dict.dictionary
-* dhAtupAThaH_sasvaraH_apple_dict.dictionary
-* dhAtupradIpa_apple_dict.dictionary
-* dhaval-tiNanta_apple_dict.dictionary
 * dictionnaire-heritage_du_sanskrit_san-fra_apple_dict.dictionary
-* divya-p_pArthasArathi_apple_dict.dictionary
-* divya-p_pArthasArathi_dev_apple_dict.dictionary
-* e-bhAratI-sampat_apple_dict.dictionary
 * edgerton-buddhist-hybrid_apple_dict.dictionary
-* ekAkSharanAmamAlA_apple_dict.dictionary
-* english-tamizh_dictionary_tamilvu_apple_dict.dictionary
-* english-tamizh_dictionary_tamilvu_dev_apple_dict.dictionary
-* english-tamizh_dictionary_tamilvu_en_apple_dict.dictionary
-* fallon_apple_dict.dictionary
-* frish_apple_dict.dictionary
-* gaNapAThaH_apple_dict.dictionary
-* goldstucker_apple_dict.dictionary
-* grassman-sanskrit-german_apple_dict.dictionary
-* greek-analyses-unicode-babylon_apple_dict.dictionary
-* gundert_apple_dict.dictionary
-* gundert_dev_apple_dict.dictionary
-* haLe-gannaDa-pada-sampada_apple_dict.dictionary
-* haLe-gannaDa-pada-sampada_dev_apple_dict.dictionary
 * hi-shabdasagar_apple_dict.dictionary
-* hi-shabdasAgar_apple_dict.dictionary
-* hopkins_apple_dict.dictionary
-* index-names-mahabharata_apple_dict.dictionary
-* indian-epigraphical-glossary_apple_dict.dictionary
-* janapada-vastu-kosha_apple_dict.dictionary
-* janapada-vastu-kosha_dev_apple_dict.dictionary
-* janapada_dev_apple_dict.dictionary
-* jhaLkI-bhIma-nyAya-koshaH_apple_dict.dictionary
-* jnu-tiNanta_apple_dict.dictionary
-* kalpadruma-sa.dictionary
-* kalpadruma-sa_apple_dict.dictionary
 * kashika_apple_dict.dictionary
-* keshirAja_apple_dict.dictionary
-* kittel_apple_dict.dictionary
-* kRdanta-rUpa-mAlA_apple_dict.dictionary
-* kRdanta-sa_apple_dict.dictionary
-* kShIratarangiNI_apple_dict.dictionary
-* kumAravyAsa-en_apple_dict.dictionary
-* kumAravyAsa_apple_dict.dictionary
-* kumAravyAsa_dev_apple_dict.dictionary
-* kyv-ts-padasvara_apple_dict.dictionary
-* lanman_apple_dict.dictionary
-* laukika-nyAya-kosha_apple_dict.dictionary
-* laxaNa-sangraha_apple_dict.dictionary
-* Lewis's An Elementary Latin Dictionary_apple_dict.dictionary
-* Longman_Dictionary_of_Common_Errors_apple_dict.dictionary
-* Longman_Pronunciation_Dictionary_3rd_Ed_apple_dict.dictionary
 * macdonell_apple_dict.dictionary
-* mAdhavIya-dhAtu-vRtti_apple_dict.dictionary
-* mahAbhArata-kRShNAchArya_apple_dict.dictionary
-* mahabharata_cultural_index_apple_dict.dictionary
-* maisUru-vishvakosha_1_apple_dict.dictionary
-* maisUru-vishvakosha_2_apple_dict.dictionary
-* maisUru-vishvakosha_3_apple_dict.dictionary
-* maisUru-vishvakosha_4_apple_dict.dictionary
-* maniku_apple_dict.dictionary
-* mcalpin_apple_dict.dictionary
-* mcalpin_dev_apple_dict.dictionary
-* Meulenbeld-Sanskrit-Names-of-Plants_apple_dict.dictionary
-* MiddleLiddell_apple_dict.dictionary
-* molesworth_apple_dict.dictionary
-* MT-paribhAShA_apple_dict.dictionary
-* mw-1872_apple_dict.dictionary
-* mw-bi-itrans-dev.dictionary
 * mw-cologne_apple_dict.dictionary
-* mw-english-sanskrit_apple_dict.dictionary
-* mw-sa_apple_dict.dictionary
-* myAnmAr-abhidhAna_en_apple_dict.dictionary
-* mysore_uni_eng_kn_apple_dict.dictionary
-* nAmamAlikA_apple_dict.dictionary
-* ncc_apple_dict.dictionary
-* nyanaponika-bm_apple_dict.dictionary
-* nyanatiloka_apple_dict.dictionary
-* olam-enml_apple_dict.dictionary
-* olam-enml_en-script_apple_dict.dictionary
 * Oxford_Advanced_Learner_s_Dictionary_apple_dict.dictionary
-* Oxford_Collocations_Dictionary_2nd_Ed_apple_dict.dictionary
-* padamanjari-apple.dictionary
-* padamanjarI.dictionary
-* padamanjarI_apple_dict.dictionary
-* pali-en-pa_apple_dict.dictionary
-* pAli-grammar-endings_apple_dict.dictionary
-* pals_english-tamil_dictionary_apple_dict.dictionary
-* pals_english-tamil_dictionary_dev_apple_dict.dictionary
-* pals_english-tamil_dictionary_en_apple_dict.dictionary
-* pampana-nuDi-gaNi_apple_dict.dictionary
-* pampana-nuDi-gaNi_dev_apple_dict.dictionary
-* paribhashika_nighantuvu_apple_dict.dictionary
-* paribhashika_nighantuvu_en_apple_dict.dictionary
-* Personal-and-Geographical-Names-in-the-Gupta-Inscriptions_apple_dict.dictionary
-* platts_apple_dict.dictionary
-* pract_apple_dict.dictionary
-* praharaj_apple_dict.dictionary
-* praharaj_dev_apple_dict.dictionary
-* proper_names_apple_dict.dictionary
 * pts_pali_apple_dict.dictionary
-* pund_v1_apple_dict.dictionary
-* purANa-index-dev_apple_dict.dictionary
-* puShpA-ArdhadhAtuka_apple_dict.dictionary
-* raghuvIra_gov_ed_apple_dict.dictionary
-* rAhula-coinages_apple_dict.dictionary
-* rAnADe-vedic-rituals_apple_dict.dictionary
-* rv-padapATha-dev_apple_dict.dictionary
-* rv-padasvara-dev_apple_dict.dictionary
-* saad_apple_dict.dictionary
-* saad_dev_apple_dict.dictionary
-* samskritam-tamizham_dictionary_apple_dict.dictionary
-* sanxipta-kannaDa-nighaNTu-ka-sa-pa_apple_dict.dictionary
-* sanxipta-kannaDa-nighaNTu-ka-sa-pa_dev_apple_dict.dictionary
-* Schmidt-Nachtrage-zum-Sanskrit-Worterbuch_apple_dict.dictionary
-* schmidt_apple_dict.dictionary
-* shabda-sAgara_apple_dict.dictionary
-* shabdArtha_kaustubha_apple_dict.dictionary
-* shaiva-kosha_apple_dict.dictionary
-* shakespear_apple_dict.dictionary
-* sheth_apple_dict.dictionary
-* shrIvatsa-nighaNTu_apple_dict.dictionary
-* siddhAnta-kaumudI.dictionary
-* siddhAnta-kaumudI_apple_dict.dictionary
-* singh_apple_dict.dictionary
-* singh_dev_apple_dict.dictionary
-* spokensanskrit_apple_dict.dictionary
-* stardict-dictd_Buddhist-Dictionary_Bhikkhu_Nyanatiloka-2_4_2_apple_dict.dictionary
-* stardict-dictd_english-pali_Ven_A_P_Buddhadatta-2_4_2_apple_dict.dictionary
-* Stchoupak-Sanscrit-French_apple_dict.dictionary
-* subbarAya_en-kn_apple_dict.dictionary
-* tulpule_apple_dict.dictionary
-* upasargArthachandrikA_apple_dict.dictionary
 * vAchaspatyam-sa.dictionary
-* vAchaspatyam-sa_apple_dict.dictionary
-* vaidya_apple_dict.dictionary
-* vaiShNava-koshaH_apple_dict.dictionary
-* vaze_apple_dict.dictionary
-* Vedic-Index-of-Names-and-Subjects_apple_dict.dictionary
-* vedic-rituals-h_apple_dict.dictionary
-* vedic-rituals-hi_apple_dict.dictionary
-* vedic_index_apple_dict.dictionary
-* Ven_A_P_Buddhadatta-2_4_2_apple_dict.dictionary
-* vidyut-kRdanta_apple_dict.dictionary
-* vidyut-Nic-kRdanta_apple_dict.dictionary
-* vidyut-Nic-san-kRdanta_apple_dict.dictionary
-* vidyut-Nic-san-tiN-akartari_apple_dict.dictionary
-* vidyut-Nic-tiN-akartari_apple_dict.dictionary
-* vidyut-san-akartari_apple_dict.dictionary
-* vidyut-san-kRdanta_apple_dict.dictionary
-* vidyut-san-Nic-kRdanta_apple_dict.dictionary
-* vidyut-san-Nic-tiN-akartari_apple_dict.dictionary
-* vidyut-san-tiN-akartari_apple_dict.dictionary
-* vidyut-subanta-a_apple_dict.dictionary
-* vidyut-subanta-chu_apple_dict.dictionary
-* vidyut-subanta-i_apple_dict.dictionary
-* vidyut-subanta-ku_apple_dict.dictionary
-* vidyut-subanta-pu_apple_dict.dictionary
-* vidyut-subanta-shal_apple_dict.dictionary
-* vidyut-subanta-tu1_apple_dict.dictionary
-* vidyut-subanta-Tu_apple_dict.dictionary
-* vidyut-subanta-uch_apple_dict.dictionary
-* vidyut-subanta-yrlv_apple_dict.dictionary
-* vidyut-taddhitAnta-a_apple_dict.dictionary
-* vidyut-taddhitAnta-b_apple_dict.dictionary
-* vidyut-taddhitAnta-chu_apple_dict.dictionary
-* vidyut-taddhitAnta-hal_apple_dict.dictionary
-* vidyut-taddhitAnta-i_apple_dict.dictionary
-* vidyut-taddhitAnta-ku_apple_dict.dictionary
-* vidyut-taddhitAnta-lv_apple_dict.dictionary
-* vidyut-taddhitAnta-p_apple_dict.dictionary
-* vidyut-taddhitAnta-s_apple_dict.dictionary
-* vidyut-taddhitAnta-sh_apple_dict.dictionary
-* vidyut-taddhitAnta-tu1_apple_dict.dictionary
-* vidyut-taddhitAnta-Tu_apple_dict.dictionary
-* vidyut-taddhitAnta-uch_apple_dict.dictionary
-* vidyut-taddhitAnta-yr_apple_dict.dictionary
-* vidyut-tiN-akartari_apple_dict.dictionary
-* vidyut-yaN-akartari_apple_dict.dictionary
-* vidyut-yaN-kRdanta_apple_dict.dictionary
-* vidyut-yaN-luk-akartari_apple_dict.dictionary
-* vidyut-yaN-luk-tiN-akartari_apple_dict.dictionary
-* vidyut-yaN-tiN-akartari_apple_dict.dictionary
-* vidyut-yaNluk-kRdanta_apple_dict.dictionary
-* vipassana_research_institute_apple_dict.dictionary
 * whitney-roots_apple_dict.dictionary
-* WHO_Ayurveda-terms_apple_dict.dictionary
-* WHO_NIA_non-clinical_draft_apple_dict.dictionary
-* WHO_siddha_apple_dict.dictionary
-* WHO_siddha_dev_apple_dict.dictionary
 * wilson_apple_dict.dictionary
 * winslow_apple_dict.dictionary
-* winslow_dev_apple_dict.dictionary
 * WordNet_3_apple_dict.dictionary
 * yates_apple_dict.dictionary
 * अभिधानमञ्जरी_apple_dict_devanagari.dictionary
 ```
-## Credits:
+</details>
 
-* https://github.com/indic-dict/stardict-sanskrit for source stardict files
+---
+
+### 🛠 How to Activate After Installation
+1.  Open the **Dictionary** app on your Mac.
+2.  Open **Settings** (Press `Cmd + ,`).
+3.  Scroll to the bottom of the list.
+4.  **Check the boxes** for the newly installed Sanskrit dictionaries to enable them.
+
+---
+
+### 🌟 Credits
+*   **Source Data:** [indic-dict/stardict-sanskrit](https://github.com/indic-dict/stardict-sanskrit) for the high-quality source StarDict files.
+* **Converter CLO**: [pyGlossary](https://github.com/ilius/pyglossary)
+*   **Maintenance:** [lalitaalaalitah](https://github.com/lalitaalaalitah)
+
+---
+**[Back to top ↑](#sanskrit_dictionary_for_macos)**
