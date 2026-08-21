@@ -343,3 +343,5 @@ cython_debug/
 Done/.DS_Store
 result
 result*
+dictionaries/
+*.zip
