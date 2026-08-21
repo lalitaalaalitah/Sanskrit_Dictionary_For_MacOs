@@ -5,8 +5,11 @@
 
 A massive collection of **260+ Sanskrit dictionary bundles (~14GB)** optimized for the native macOS Dictionary app. Compatible with high-quality sources from GoldenDict, ColorDict, and EBDic.
 
-🔗 **Official Website:** [eng.lalitaalaalitah.com](https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/)
+🔗 **Official Website:** [code.lalitaalaalitah.com](https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/)
+
 📖 **Detailed Guide:** [HOW_TO_USE.md](HOW_TO_USE.md)
+
+🎉 **Latest Updates:** [Code Website](https://code.lalitaalaalitah.com/category/sanskritdictionary/)
 
 ---
 
