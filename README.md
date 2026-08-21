@@ -5,7 +5,7 @@
 
 A massive collection of **260+ Sanskrit dictionary bundles (~14GB)** optimized for the native macOS Dictionary app. Compatible with high-quality sources from GoldenDict, ColorDict, and EBDic.
 
-🔗 **Official Website:** [eng.lalitaalaalitah.com](https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/)  
+🔗 **Official Website:** [eng.lalitaalaalitah.com](https://eng.lalitaalaalitah.com/sanskrit-dictionary-files-for-mac-os/)
 📖 **Detailed Guide:** [HOW_TO_USE.md](HOW_TO_USE.md)
 
 ---
@@ -35,7 +35,7 @@ uv run sanskrit_dict_installer.py
 python3 sanskrit_dict_installer.py
 ```
 
-#### Option 3: Nix & Home Manager Flake
+#### Option 3: Nix & Home Manager Flake (See [Nix Installation](HOW_TO_USE.md#method-3-nix--home-manager-integration))
 ```nix
 programs.sanskrit-dictionary.enable = true;
 ```
