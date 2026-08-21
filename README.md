@@ -22,8 +22,10 @@ Because the collection has grown to **14GB**, the previous Python and Nix instal
 
 **To install all dictionaries at once, run this in your Terminal:**
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lalitaalaalitah/Sanskrit_Dictionary_For_MacOs/main/install_all.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lalitaalaalitah/Sanskrit_Dictionary_For_MacOs/refs/heads/master/installer_script_from_release.sh)"
 ```
+**Note:** This will install all dictionaries, which is approximately 14GB of data. Please ensure you have enough disk space.
+You may easily delete those which you don't want to keep later from `~/Library/Dictionaries`
 
 ---
 
